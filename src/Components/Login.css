@@ -1,0 +1,88 @@
+/* Container Styles */
+.login-container {
+    background-color: #bae6fd; /* sky-200 */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    width: 300px;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Title Styles */
+.login-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2563eb; /* blue-600 */
+}
+
+/* Input Field Container */
+.login-input-container {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Label Styling */
+.login-input-container p {
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Input Field Styling */
+.login-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.login-input:focus {
+    border-color: #2563eb; /* blue-600 */
+    box-shadow: 0px 0px 8px rgba(59, 130, 246, 0.4);
+    outline: none;
+}
+
+/* Login Button */
+.login-button {
+    background-color: #2563eb; /* blue-600 */
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+.login-button:hover {
+    background-color: #1d4ed8; /* Darker blue */
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Active Effect */
+.login-button:active {
+    transform: translateY(1px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
